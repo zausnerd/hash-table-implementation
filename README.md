@@ -2,7 +2,7 @@
 
 
 Why hello there! You might be wondering what this is. If the name of the repository did not clue you in, this is a hash table 
-implementation. You see, I determined there were not enough half-abandoned repos floating around with various self-rolled implementations of hash tables, so I decided to throw my own into the fray, fun!
+implementation. You see, I figured there weren't enough half-abandoned repos floating around with various self-rolled implementations of hash tables, so I decided to throw my own into the fray, fun!
 
 
 
