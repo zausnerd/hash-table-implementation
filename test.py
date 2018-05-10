@@ -119,6 +119,8 @@ class deleteTestCase(unittest.TestCase):
         assert self.ht.get(14) == 'fourteen'
         assert self.ht.get(214) == 'twoFourteen'
         assert self.ht.get(114) == 'oneFourteen'
+    def testDeleteNonExistantKey(self):
+        self.assertRaises(KeyError, self.ht.delete, 'George Costanza')
 
 if __name__ == "__main__":
     unittest.main() 
